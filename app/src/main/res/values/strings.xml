@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">exam2_axe_man</string>
+    <string name="textview_splash_screen_counter">0</string>
+    <string name="trees_chopped">com.blanco.exam2_axe_man.trees_chopped</string>
+</resources>

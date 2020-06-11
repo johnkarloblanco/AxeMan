@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_splash_screen_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/textview_splash_screen_counter"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_Trees_Fallen_Label"
+        app:layout_constraintStart_toEndOf="@+id/textView_Trees_Fallen_Label" />
+
+    <ImageView
+        android:id="@+id/splash_screen_tree"
+        android:layout_width="0dp"
+        android:layout_height="558dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497"
+        app:srcCompat="@drawable/treehires" />
+
+    <TextView
+        android:id="@+id/textView_Trees_Fallen_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="25dp"
+        android:text="Trees Fallen:"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="@+id/button_splash_screen_reset"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <Button
+        android:id="@+id/button_splash_screen_reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:text="RESET"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/splash_screen_axe"
+        android:layout_width="94dp"
+        android:layout_height="118dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginBottom="120dp"
+        app:layout_constraintBottom_toBottomOf="@+id/splash_screen_tree"
+        app:layout_constraintStart_toStartOf="@+id/splash_screen_tree"
+        app:srcCompat="@drawable/axehires" />
+</androidx.constraintlayout.widget.ConstraintLayout>
